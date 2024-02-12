@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login{
+    background-color: #2c2e43;
+}
+
+.login-container{
+    z-index: 1;
+}
+
+.sidebarMenu li .ant-menu-dark .ant-menu-item-selected{
+    background-color: #e7ebef82 !important;
+}
+
+@media screen and (min-width: 400px)and (max-width: 650px) {
+    .ant-table-content {
+      overflow-x: auto;
+      width: 350px;
+    }
+  }
+
+
+@media screen and (min-width: 650px)and (max-width: 800px) {
+    .ant-table-content {
+      overflow-x: auto;
+      width: 450px;
+    }
+  }
+
+  @media screen and (min-width: 801px) and  (max-width: 899px) {
+    .ant-table-content {
+      overflow-x: auto;
+      width: 550px;
+    }
+  }
+
+  @media screen and (min-width: 900px) and  (max-width: 1000px) {
+    .ant-table-content {
+      overflow-x: auto;
+      width: 600px;
+    }
+  }

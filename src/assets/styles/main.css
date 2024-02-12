@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.even-row:hover {
+    background-color: rgba(238, 201, 245, 0.5);
+  }
+  
+  .odd-row:hover {
+    background-color: rgba(238, 201, 245, 0.5) /* White for odd rows */
+  }
